@@ -12,7 +12,8 @@ body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  background-color: #171919;
+  // background-color: #171919;
+  background-color: #000;
   color: #fff;
   text-transform: uppercase;
 }
@@ -31,7 +32,7 @@ li {
 }
 
 .container {
-  min-width: 1920px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -78,19 +79,21 @@ li {
 }
 
 .title {
-  span {
-    font-size: 200px;
+  div {
+    font-size: 120px;
     font-weight: 800;
     color: rgba(255, 255, 255, 0.2);
     position: relative;
     display: inline-block;
     letter-spacing: 7px;
   }
-
+  span{
+    display: inline-block;
+  }
   h3 {
     position: absolute;
-    top: 0;
-    right: 0px;
+    top: 55px;
+    right: -70px;
     margin: 0;
     color: #fff;
     font-size: 80px;
